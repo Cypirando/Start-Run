@@ -4,6 +4,24 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SplashScreen.unity
+    guid: d6de543cfec769e4da1ac19c1360b762
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: b2126ca60c1c0024eb9a37c4165b70a7
+  - enabled: 1
+    path: Assets/Scenes/RedirectLevel.unity
+    guid: db7d3d791b6b5a341b147d2fc2f948e0
+  - enabled: 1
+    path: Assets/Scenes/Level002.unity
+    guid: 9ef576e7dcaa610448098bd20d90466b
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 26bd83d9643653745a352397a3ea31b1
+  - enabled: 1
+    path: Assets/Scenes/Level001.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: df69d411f113deb4c9143e2382ada211, type: 2}

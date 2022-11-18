@@ -1,0 +1,531 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1663759491112674, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663759491113985, "dur": 24347, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663759491138490, "dur": 221765, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663759491360273, "dur": 10645, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663759498726762, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663759498727004, "dur": 12427, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663759498739437, "dur": 47967, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663759498787460, "dur": 529244, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663759499316706, "dur": 228626, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663759499545334, "dur": 5835, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663759499553754, "dur": 78, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1663759499089431, "dur": 197395, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663759499090542, "dur": 84721, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663759499266982, "dur": 5098, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663759499272084, "dur": 14733, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663759499272784, "dur": 12986, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663759499293801, "dur": 1345, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663759499291450, "dur": 3728, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663759499554145, "dur": 767, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1663759499357354, "dur":1724, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499359086, "dur":66, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1663759499359167, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1663759499359186, "dur":727, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1663759499359979, "dur":833, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499360812, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522248, "dur":292, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522540, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522554, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522555, "dur":33, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522588, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522589, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522610, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522612, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522623, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522624, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522629, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522630, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522636, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522637, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522643, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522644, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522648, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522655, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499522659, "dur":2031, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1663759499360392, "dur":434, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499360827, "dur":4810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499365640, "dur":1012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1663759499366655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499373086, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1663759499375045, "dur":745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1663759499375793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499375800, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1663759499378772, "dur":8804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1663759499387582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499387588, "dur":4040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1663759499391711, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499391964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499391972, "dur":2971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499394998, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499395223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499395230, "dur":4533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499399862, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499400357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499400365, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499402794, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499403013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499403019, "dur":3779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499406853, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499407088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499407097, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499409766, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499409990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499410030, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499413321, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499413545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499413553, "dur":4457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499418061, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499418407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499418413, "dur":5455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499423924, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499424134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499424143, "dur":5755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499429961, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499430194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499430204, "dur":3063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499433361, "dur":718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499434084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499434093, "dur":6879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499441036, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499441263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499441272, "dur":3248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499444577, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499444813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499444823, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499447594, "dur":2447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499450046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499450055, "dur":8320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499458425, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499458706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499458713, "dur":3475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663759499462242, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1663759499462298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499462304, "dur":31676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1663759499494016, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1663759499494049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499494053, "dur":17158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1663759499511277, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1663759499511335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663759499511370, "dur":3379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1663759499514808, "dur":7440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499360725, "dur":135, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499360860, "dur":4830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499365690, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663759499365879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499368709, "dur":6039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663759499374801, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1663759499374927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499375479, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1663759499378405, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1663759499378561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499378568, "dur":4968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1663759499383597, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499383810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499384667, "dur":4353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499389080, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499389353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499389380, "dur":3046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499392486, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499392740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499392749, "dur":2808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499395616, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499395947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499395956, "dur":5104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499401115, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499401332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499401338, "dur":4128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499405518, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499405786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499405795, "dur":3579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499409433, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499409660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499409667, "dur":3584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499413312, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499413674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499413682, "dur":4395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499418144, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499418353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499418361, "dur":4832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499423253, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499423633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499423642, "dur":3208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499426904, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499427173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499427181, "dur":5749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499433002, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499433217, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499433222, "dur":5118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499438403, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499438773, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499438788, "dur":3781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499442621, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499442909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499442913, "dur":3503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499446470, "dur":773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499447249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499447259, "dur":4802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499452125, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499452422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499452436, "dur":7058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663759499459543, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1663759499459573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499459577, "dur":6729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1663759499466367, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1663759499466458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499466470, "dur":10430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1663759499476960, "dur":6733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1663759499483698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499483704, "dur":8413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1663759499492198, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1663759499492266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499492272, "dur":19099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1663759499511427, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1663759499511469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663759499511473, "dur":4068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1663759499515582, "dur":6667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499360471, "dur":365, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499360837, "dur":4856, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499365693, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1663759499365892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499370166, "dur":4492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1663759499374713, "dur":713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1663759499375430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499375437, "dur":3490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1663759499378982, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune.exe" }}
+,{ "pid":12345, "tid":3, "ts":1663759499379559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499379566, "dur":5677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune.exe" }}
+,{ "pid":12345, "tid":3, "ts":1663759499385305, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499385538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499385547, "dur":4954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499390551, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499390792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499390802, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499393378, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499393629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499393637, "dur":3464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499397163, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499397484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499397493, "dur":3527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499401081, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499401307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499401315, "dur":3715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499405090, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499405311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499405320, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499408558, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499408812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499408819, "dur":3370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499412272, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499412629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499412636, "dur":3991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499416674, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499416883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499416892, "dur":5332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499422310, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499422524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499422534, "dur":3337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499425932, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499426188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499426195, "dur":6927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499433262, "dur":845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499434112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499434118, "dur":6891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499441068, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499441464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499441471, "dur":4106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499445753, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499446256, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499446380, "dur":4760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499451258, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499451717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499451726, "dur":7130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663759499458911, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663759499458965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499458971, "dur":17950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663759499476976, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663759499477033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499477041, "dur":15002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663759499492105, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663759499492142, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499492148, "dur":13488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663759499505694, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663759499505751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499505757, "dur":8195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663759499514010, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1663759499514211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663759499514220, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1663759499517428, "dur":4803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663759499360814, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663759499360814, "dur":4816, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663759499365640, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1663759499365641, "dur":955, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663759499366602, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1663759499366607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663759499371335, "dur":2835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1663759499374173, "dur":921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1663759499375098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663759499375105, "dur":3485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1663759499378653, "dur":97306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663759499475971, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663759499475985, "dur":26877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663759499502896, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1663759499502930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663759499502935, "dur":9800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1663759499512791, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1663759499512846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663759499512852, "dur":4280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1663759499517165, "dur":5067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499361012, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499361012, "dur":4670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499365682, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1663759499365862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499368838, "dur":5711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1663759499374679, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1663759499374823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499374955, "dur":3541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1663759499378549, "dur":5286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499383839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499384672, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499387822, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499388124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499388131, "dur":3095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499391283, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499391543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499391558, "dur":3001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499394679, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499395064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499395072, "dur":4428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499399554, "dur":1445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499401004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499401013, "dur":4546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499405632, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499405845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499405852, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499408886, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499409120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499409128, "dur":3155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499412335, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499412559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499412567, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499415906, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499416188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499416216, "dur":5727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499422002, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499422291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499422300, "dur":3513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499425885, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499426125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499426133, "dur":4897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499431091, "dur":1154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499432250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499432259, "dur":4366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499436704, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499437052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499437075, "dur":4042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499441179, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499441669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499441676, "dur":3516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499445241, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499445528, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499445539, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499448821, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499449038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499449045, "dur":3702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499452804, "dur":52941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499505749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663759499505758, "dur":16391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663759499522207, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1663759499522209, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499361152, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499361153, "dur":4538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499365691, "dur":953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1663759499366647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499371588, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1663759499375037, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1663759499375198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499375388, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1663759499378125, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1663759499378315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499378324, "dur":3477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1663759499381883, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1663759499382123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499383153, "dur":9812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1663759499393023, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499393331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499393340, "dur":5003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499398409, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499398771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499398777, "dur":3934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499402773, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499403205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499403212, "dur":3795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499407086, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499407292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499407298, "dur":3669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499411085, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499411590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499411602, "dur":2928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499414591, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499414830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499414840, "dur":4320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499419224, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499419456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499419463, "dur":6340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499425875, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499426321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499426328, "dur":4879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499431264, "dur":1298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499432565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499432571, "dur":6091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499438732, "dur":3697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499442434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499442441, "dur":8887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499451380, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499451859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499451868, "dur":8909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663759499460836, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1663759499460897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499460906, "dur":4094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1663759499465047, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1663759499465078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499465084, "dur":4761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1663759499469909, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1663759499470002, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499470016, "dur":42931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1663759499513001, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1663759499513036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663759499513041, "dur":3660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1663759499516757, "dur":5477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499361270, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499361270, "dur":4422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499365692, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663759499365876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499368487, "dur":6311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663759499374854, "dur":739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1663759499375622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499375629, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1663759499378638, "dur":29978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499408620, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499408792, "dur":9820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499418670, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499418875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499418913, "dur":5273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499424244, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499424460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499424467, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499427014, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499427286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499427291, "dur":4883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499432240, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499432481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499432489, "dur":5188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499437739, "dur":678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499438423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499438431, "dur":4075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499442561, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499442813, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499442819, "dur":3629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499446504, "dur":2826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499449333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499449339, "dur":8786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499458181, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499458604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499458619, "dur":3645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663759499462320, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1663759499462371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499462376, "dur":22827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1663759499485261, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1663759499485544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499485557, "dur":8139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1663759499493769, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1663759499493815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499493823, "dur":17552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1663759499511448, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1663759499511502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663759499511507, "dur":4382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1663759499515943, "dur":6293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499361435, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499361435, "dur":4253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499365688, "dur":873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1663759499366565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499369944, "dur":4753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1663759499374749, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1663759499374871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499374954, "dur":3291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1663759499378307, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1663759499378439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499378446, "dur":4434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1663759499382935, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499383167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499383407, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499386074, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499386325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499386333, "dur":4975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499391362, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499391625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499391644, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499394558, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499394897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499394906, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499398376, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499398730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499398740, "dur":3749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499402544, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499402780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499402789, "dur":4212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499407080, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499407308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499407315, "dur":3228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499410617, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499410911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499410920, "dur":3615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499414592, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499414848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499414854, "dur":4122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499419030, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499419290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499419299, "dur":4893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499424246, "dur":1644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499425894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499425902, "dur":6625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499432582, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499432805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499432812, "dur":4770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499437647, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499438114, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499438149, "dur":3490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499441690, "dur":1096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499442789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499442796, "dur":5960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499448822, "dur":1549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499450376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499450414, "dur":8133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663759499458598, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1663759499458657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499458732, "dur":3097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1663759499461884, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":8, "ts":1663759499461938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499461946, "dur":14305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":8, "ts":1663759499476344, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1663759499476403, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499476410, "dur":9918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1663759499486368, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1663759499486533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499486539, "dur":14943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1663759499501551, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1663759499501601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499501618, "dur":11027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1663759499512701, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1663759499512754, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663759499512761, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Cypir/Desktop/Nova pasta/Start Rune_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1663759499516852, "dur":5381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663759499526310, "dur":1833, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1663759499555231, "dur": 2498, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663759499553721, "dur": 4140, "ph": "X", "name": "Write chrome-trace events", "args": {} },
